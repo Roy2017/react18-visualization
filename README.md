@@ -21,7 +21,8 @@
 4. 单步执行每个关键步骤,自动执行每一个步骤（默认1s）
 5. 每个关键步骤的说明和该步骤关键数据的展示
 
-
+## 在线预览
+https://roy2017.github.io/react18-visualization/
 
 ## 使用
 安装依赖
@@ -36,6 +37,7 @@ npm run dev
 可视化相关代码在src/visualization文件里
 
 src/visualization/test.jsx为React待渲染的文件
+![alt text](image-6.png)
 
 ## 演示
 - 功能区域介绍
