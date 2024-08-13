@@ -9,7 +9,7 @@ export default defineConfig({
     reactRefresh(),
     commonjs(/* options */),
   ],
-  base: 'roy2017.github.io/react18-visualization/',
+  base: 'react18-visualization/',
   resolve: {
     alias: [
       {find: 'react', replacement: path.resolve(__dirname, './src/packages/react/cjs/react.development.js')},
