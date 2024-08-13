@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/src/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>调试React源码</title>
+    <script type="module" crossorigin src="/assets/index.a509d9e6.js"></script>
+    <link rel="stylesheet" href="/assets/index.69361782.css">
+  </head>
+  <body>
+    <div id="app">
+      <h4 style="display: inline-block;margin: 0;">
+        步骤说明:
+      </h4>
+      <span id="explanation"></span>
+
+      <!-- Control Buttons -->
+      <div class="control">
+          <button id="resetBtn">🔁重置</button>
+          <button id="stepBtn">▶️单步执行</button>
+          <button id="startBtn">自动执行</button>
+          <button id="stopBtn">暂停</button>
+          <label for="beginwork"><input id="beginwork" type="checkbox"/>beginWork细节</label>
+      </div>
+      <div id="fiberRootNode" style="height: 70px;margin-top: -20px;">
+
+      </div>
+      <div style="text-align: center;height: 80px;">
+        <svg width="50vw" height="80" xmlns="http://www.w3.org/2000/svg">
+          <!-- 画线 -->
+          <line x1="50%" y1="10" x2="25" y2="70" stroke="black" stroke-width="5"/>
+          
+          <!-- 画箭头 -->
+          <polygon points="30,61 20,70 33,75" fill="black" />
+        </svg>
+      </div>
+   
+      <!-- Placeholder for Tree Structure -->
+      <div id="treeContainer">
+        <div>
+          <h3>current树</h3>
+          <div id="tree1" ></div>
+        </div>
+        <div>
+          <h3>alternate树</h3>
+          <div id="tree2" ></div>
+        </div>
+      </div>
+
+    </div>
+    <h2>React当前渲染的结果</h2>
+    <div id="root"></div>
+
+    
+  </body>
+</html>
