@@ -7,12 +7,9 @@
  * LICENSE file in the root directory of this source tree.
  */
 
+
+
 'use strict';
-
-if (process.env.NODE_ENV !== "production") {
-  (function() {
-
-          'use strict';
 
 /* global __REACT_DEVTOOLS_GLOBAL_HOOK__ */
 if (
@@ -2775,5 +2772,5 @@ if (
   __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
 }
         
-  })();
-}
+
+
