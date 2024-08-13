@@ -38,22 +38,22 @@ npm run dev
 src/visualization/test.jsx为React待渲染的文件
 
 ## 演示
-功能区域介绍
+- 功能区域介绍
 ![alt text](image.png)
 
-双缓存fiber树,可以点击每个节点，查看对应的fiber对象内容
+- 双缓存fiber树,可以点击每个节点，查看对应的fiber对象内容
 ![alt text](image-1.png)
 
-beginWork和completeWork执行后，节点的不同颜色
+- beginWork和completeWork执行后，节点的不同颜色
 ![alt text](image-2.png)
 
-render阶段结束，commit阶段完成后，rootfiber指向新的current，渲染区渲染出真实dom节点
+- render阶段结束，commit阶段完成后，rootfiber指向新的current，渲染区渲染出真实dom节点
 ![alt text](image-3.png)
 
-点击更新按钮发起useState更新的步骤演示
+- 点击更新按钮发起useState更新的步骤演示
 ![alt text](image-4.png)
 
-勾选beginWork细节，可以查看beginWork流程的一些细节
+- 勾选beginWork细节，可以查看beginWork流程的一些细节
 ![alt text](image-5.png)
 
 ### TODO
