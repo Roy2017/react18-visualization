@@ -1,0 +1,70 @@
+button {
+  margin: 10px;
+  padding: 5px;
+}
+span {
+  word-break: break-all;
+}
+
+.tag{
+    padding: 2px 3px;
+    border: 1px solid #000;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+.pri-1 {
+  color: red;
+}
+.pri-2 {
+  color: green;
+}
+.pri-3 {
+  color: blue;
+}
+.pri-4 {
+  color: pink;
+}
+.pri-5 {
+  color: black;
+}
+
+#content:before{
+    content: 'task queue：';
+    display: block;
+}
+
+#taskWrap{
+    border: 1px solid #000;
+    padding: 10px 10px;
+    min-height: 1.5em;
+    overflow-x: auto;
+}
+
+.task{
+    margin-right: 10px;
+    padding: 2px 5px;
+    border: 1px solid #000;
+    border-radius: 10px;
+}
+
+.task-1 {
+    color: red;
+    border-color: red;
+}
+.task-2 {
+    color: green;
+    border-color: green;
+}
+.task-3 {
+    color: blue;
+    border-color: blue;
+}
+.task-4 {
+    color: pink;
+    border-color: pink;
+}
+.task-5 {
+    color: black;
+    border-color: black;
+}

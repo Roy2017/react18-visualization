@@ -1,0 +1,78 @@
+body{
+  overflow-x: hidden;
+}
+#app,#root {
+  width: 100%;
+}
+#explanation{
+  color: #ff0000;
+  white-space: pre-wrap
+}
+
+.para {
+  display: grid;
+  grid-template-columns: 160px 300px;
+  row-gap: 10px;
+}
+
+.control {
+  margin-top: 0.5em;
+  position: relative;
+  z-index: 9;
+}
+
+.control button {
+  padding: 5px 12px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.sort {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.sort li {
+  border: 1px solid #e2dcdc;
+  padding: 5px;
+  margin: 3px;
+  border-radius: 50%;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 21px;
+  transition: all 0.7s ease-in-out;
+}
+
+#treeContainer{
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  
+}
+#treeContainer h3{
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+/* d3 css */
+/* 样式定义 */
+.node circle {
+  cursor: pointer;
+}
+
+.node text {
+  font: 12px sans-serif;
+  font-weight: bold;
+  fill: rgb(6, 6, 6);
+  text-anchor: middle;
+  cursor: pointer;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
